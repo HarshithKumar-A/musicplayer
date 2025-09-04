@@ -61,14 +61,73 @@ export const songs: Song[] = [
 [00:20] മിഥുൻ ഭായ്യ്ഈഇഇഇഇഇ...`,
 
     audioUrl: '/audio/മിഥുൻ ഭായ്.mp3',
-    cover: '/mithumbai.png'
+    cover: '/image.png'
+  },
+  {
+    id: '3',
+    name: 'prabhu the boss',
+    description: 'പ്രഭു ബോസ്, ബോസ്, never look back!',
+    audioUrl: '/audio/prabu the boss.mp3',
+    cover: '/boss.png',
+    lyrics: `
+  [00:07] ബോസ്‌നെ കണ്ടാൽ mind blow ചെയ്യും,
+  [00:13] കോഡിലും ചളിയിലും show ചെയ്യും.
+  [00:16] Reels-ലേ വരും, fame track,
+  [00:18] പ്രഭു ബോസ്, ബോസ്, never look back!
+
+    [00:23] ബോസ്‌നെ കണ്ടാൽ mind blow ചെയ്യും,
+  [00:26] കോഡിലും ചളിയിലും show ചെയ്യും.
+  [00:28] Reels-ലേ വരും, fame track,
+  [00:30] പ്രഭു ബോസ്, ബോസ്, never look back!
+
+[00:32] David Putra-യിൽ വരും sound attack,
+[00:34] engine roar, street full pack.
+[00:36] music vibe set, crowd clap back,
+[00:38] പ്രഭു ബോസ്, ബോസ്, never look back!
+
+[00:43] music player launch, groove full on,
+[00:46] play button click, vibe all gone.
+[00:48] ചളി അടിച്ച് സന്തോഷിക്കും crowd pack,
+[00:50] പ്രഭു ബോസ്, ബോസ്, never look back!
+
+[00:55] app build speed, bullet train പോലെ,
+[01:00] bugs vanish quick, monsoon പോലെ.
+[01:05] Reels-ലേ വരും, fans shout track,
+[01:10] പ്രഭു ബോസ്, ബോസ്, never look back!
+    `
+  },
+  {
+    id: '4',
+    name: 'Boss Tamil (Fan made)',
+    description: 'Namma thalai boss..',
+    audioUrl: '/audio/boss_tamil.mp3',
+    cover: '/boss_tamil.png',
+    lyrics: `
+  [00:01] Prabu the boss,
+  [00:03] The Boss – never look back!
+  [00:10] தீ மழையில் தீபம் போல,
+  [00:15] வெற்றி கொண்டு வீரம் சொல்ல.
+  [00:20] பிரபு The Boss புயல் பறக்க வந்தான்,
+  [00:25] அடங்காத ஆற்றல் வந்து வலம் வந்தான்.
+  [00:30] மீசை முறுக்கி மேளம் அடித்து,
+  [00:35] இவன் முன்னே நின்றாலே நடுங்கும் வித்து.
+  [00:40] இவன் பெயர் சொன்னாலே அதிரும் உலகம்,
+  [00:45] சிவனுக்கும் கூட வரும் சண்டைக் குரகம்.
+  [00:50] Prabu the boss,
+  [00:55] The Boss – never look back!
+  [01:00] App build speed – bullet train போலே,
+  [01:05] Bugs vanish quick – monsoon போலே.
+  [01:10] Reels-லே hype, crowd clap track,
+  [01:15] The Boss – never look back!
+    `
   },
   {
     id: 'coming-soon',
-    name: 'prabhu the boss',
-    description: 'പ്രഭു ബോസ്, ബോസ്, never look back!',
-    lyrics: '',
-    audioUrl: '',
-    cover: '/boss.png'
+    name: 'Mr.Mass cool',
+    description: 'Mass as boss. Cool as ....',
+    cover: '/coming_soon.png',
+    lyrics: `
+    `,
+    audioUrl: ''
   }
 ]; 
