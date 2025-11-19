@@ -90,11 +90,14 @@ export default function MusicPlayer({ song }: MusicPlayerProps) {
       
       {/* Song Info */}
       <div className="flex items-center mb-6">
-        <img
-          src={song.cover}
-          alt={song.name}
-          className="w-20 h-20 rounded-lg object-cover mr-4"
-        />
+      <div className={`p-[3px] rounded-full mr-3 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 ${isPlaying ? 'animate-[spin_3s_linear_infinite]' : ''}`}>
+  <img
+    src={song.cover}
+    alt={song.name}
+    className="w-20 h-20 rounded-full object-cover"
+  />
+</div>
+
         <div>
           <h2 className="text-2xl font-bold text-white">{song.name}</h2>
           <p className="text-gray-300">{song.description}</p>

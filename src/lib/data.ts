@@ -122,12 +122,12 @@ export const songs: Song[] = [
     `
   },
   {
-    id: 'coming-soon',
-    name: 'Mr.Mass cool',
+    id: '5',
+    name: 'Nivedettan',
     description: 'Mass as boss. Cool as ....',
-    cover: '/coming_soon.png',
+    cover: '/nivedettan.jpeg',
     lyrics: `
     `,
-    audioUrl: ''
+    audioUrl: '/audio/nivedettan.mpeg'
   }
 ]; 
