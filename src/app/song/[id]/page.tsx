@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { songs } from '@/lib/data';
 import MusicPlayer from '@/components/MusicPlayer';
+import LikeButton from '@/components/LikeButton';
 
 interface PageProps {
   params: {
@@ -36,7 +37,11 @@ export default function SongPage({ params }: PageProps) {
             className="w-64 h-64 mx-auto rounded-lg shadow-2xl object-cover mb-6"
           />
           <h1 className="text-4xl font-bold text-white mb-2">{song.name}</h1>
-          <p className="text-xl text-gray-300">{song.description}</p>
+          <p className="text-xl text-gray-300 mb-4">{song.description}</p>
+
+          <div className="flex justify-center">
+            <LikeButton songId={song.id} />
+          </div>
         </div>
 
         <MusicPlayer song={song} />

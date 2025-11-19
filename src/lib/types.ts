@@ -5,4 +5,5 @@ export interface Song {
   lyrics: string;
   audioUrl: string;
   cover: string;
+  likesCount?: number;
 } 
